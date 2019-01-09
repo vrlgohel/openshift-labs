@@ -1,2 +1,2 @@
 FROM fedora
-CMD bash -c "while true; do ((i++)); echo test \$i; sleep 10; done"  
+CMD bash -c "while true; do ((i++)); echo Hey, i am running on openshift \$i; sleep 10; done"  
